@@ -19,6 +19,7 @@
 
 /**body**/
 
+
 .box{
     display: flex;
     margin: 10%;
@@ -39,12 +40,24 @@
     opacity: 55%;
     display: flex;
     align-items: center;
+    border-right: 2px solid black;
+    
+    margin-right: -5.7%;
+    padding-right: 5.7%;
+    margin-bottom: -15%;
+    padding-bottom: 15%;
+
+
+ 
+    
+    
 }
 
 .task{
     font-size: 1.2rem;
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -53,7 +66,9 @@
     opacity: 100%;
     font-size: 1.2rem;
     color:red;
-}    
+   
+}
+
 
 /**bottom**/
 .button{
